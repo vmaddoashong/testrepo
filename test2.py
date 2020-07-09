@@ -1,3 +1,9 @@
-print("I'm the better file")
-print("I'm getting hungry")
-#Holy frick did this finally work??
+import numpy as np
+import pandas as pd
+
+df = pd.read_excel("/Users/Vicky-Marie/Desktop/Atom Practice/County Data copy.xlsx")
+
+
+
+for county in df:
+    print(county)
